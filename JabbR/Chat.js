@@ -919,7 +919,7 @@
         // Initialize the ui, passing the user preferences
         ui.initialize(state.preferences);
 
-        ui.addMessage('Welcome to ' + originalTitle + ',Jessica 01/23/2013 ', 'notification');
+        ui.addMessage('Welcome to ' + originalTitle + 'Jessica, 01/23/2013 ', 'notification');
         ui.addMessage('Use ? or type /? to display the FAQ and list of commands', 'notification');
 
         function initConnection() {
